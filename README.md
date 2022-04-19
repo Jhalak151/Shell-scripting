@@ -2,17 +2,13 @@
 README
 ---
 
-# 1a. Remove empty lines
+# 1. Remove empty lines and Remove duplicates
 To run the script:
-> ./q1a.sh    
+> ./q1.sh    
 
-The output is updated in quotes.txt itself.
+a. The output is updated in quotes.txt and printed on screen.
+b. The output is updated in quotes.txt only.
 
-# 1b. Remove duplicates
-To run the script:
-> ./q1b.sh    
-
-The output is updated in quotes.txt itself.
 
 # 2. Reformatting quotes.txt
 To run the script:
