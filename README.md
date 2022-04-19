@@ -64,10 +64,14 @@ b. replaces letters in the reverse output with the subsequent letter
 c. prints only the half string in reverse
 
 example input: 
+  
 `Helloo`                 
 example output: 
+  
 `oolleH`
+  
 `ppmmfI`
+
 `leHloo`
 
 Link to the github repo: https://github.com/Jhalak151/ISS-Assignment-1
