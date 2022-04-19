@@ -15,10 +15,7 @@ To run the script:
 > ./q2.sh    
 
 The output is shown in a new file, speech.txt.
-example output line: `Anonymous once said, "If you want to achieve greatness stop asking for permission".`
-> NOTE: Each quote ends in a fullstop, while the given format specifies:
-`[author] once said, “[quote]”.`
-where the fullstop is outside the quotes. Therefore, the fullstop at the end of each quote has been removed.
+example output line: `Anonymous once said, "If you want to achieve greatness stop asking for permission."`
 
 # 3. Remove empty lines
 To run the script:

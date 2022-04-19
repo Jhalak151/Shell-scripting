@@ -2,12 +2,7 @@
 
 #formatting lines in quotes.txt
 
-cat quotes.txt | while read line || [[ -n $line ]];
+cat quotes.txt | while read line;
 do
-    B=$( echo $line | cut -d'~' -f2 )
-    C=$( echo " once said, \"" )
-    D=$( echo $line | cut -d'~' -f1 | sed 's/.$//' | sed 's/.$//')
-    E=$( echo "\"." )
-
-    echo $B$C$D$E >> speech.txt
+    echo $line | awk -F"~" '{print $2 " once said, \"" $1}' | sed 's/.$//' | sed 's/$/\"/' | cat >> speech.txt
 done
