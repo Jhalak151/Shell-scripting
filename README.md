@@ -20,23 +20,23 @@ To run the script:
 > ./q3.sh <filename.txt>
 
 
-##### a. printing size of a file
+#### a. printing size of a file
 a number that is the size of the inout file in bytes is printed
 example output: `11822`
 
-##### b. Printing size of a file
+#### b. Printing size of a file
 a number that is the size of the input file in bytes is printed.
 example output: `99`
 
-##### c. Count total number of lines in the file
+#### c. Count total number of lines in the file
 a number that is the total number of lines in the file is printed.
 example output: `2071`
 
-##### d. Count total number of words in the file
+#### d. Count total number of words in the file
 a number that is the total number of words in the file is printed.
 example output: `Line No: 1 - Count of Words: 13`
 
-##### e. List of repeated works and number of times they are repeated
+#### e. List of repeated works and number of times they are repeated
 a number that is the total number of words in the file is printed.
 example output: `Word: a - Count of repetition: 25`
 
