@@ -1,8 +1,6 @@
----
-README
----
+## Assignment 1, Introduction to Software Systems
 
-# 1. Remove empty lines and Remove duplicates
+### 1. Remove empty lines and Remove duplicates
 To run the script:
 > ./q1.sh    
 
@@ -10,14 +8,14 @@ a. The output is updated in quotes.txt and printed on screen.
 b. The output is updated in quotes.txt only.
 
 
-# 2. Reformatting quotes.txt
+### 2. Reformatting quotes.txt
 To run the script:
 > ./q2.sh    
 
 The output is shown in a new file, speech.txt.
 example output line: `Anonymous once said, "If you want to achieve greatness stop asking for permission."`
 
-# 3. Remove empty lines
+### 3. Remove empty lines
 To run the script:
 > ./q3.sh <filename.txt>
 
@@ -42,7 +40,7 @@ example output: `Line No: 1 - Count of Words: 13`
 a number that is the total number of words in the file is printed.
 example output: `Word: a - Count of repetition: 25`
 
-# 4. Sorting
+### 4. Sorting
 To run the script:
 > ./q4.sh
 a1,a2,a3,...,an
@@ -51,7 +49,7 @@ output is a sorted space-separated version of the input.
 example input: `5,4,3,2,1`
 example output: `1 2 3 4 5`
 
-# 5. String manipulation
+### 5. String manipulation
 To run the script:
 > ./q5.sh
 <string>
